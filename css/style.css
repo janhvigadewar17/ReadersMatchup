@@ -1,0 +1,64 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+#features{
+  margin-left: 100px;
+}
+
+.circledog{
+  height: 100.33px;
+  width: 100px;
+  border-radius: 100%;
+}
+.myflex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img1{
+  width: 169px;
+  height: 30px;
+}
+.img2{
+  width: 176px;
+  height: 30px;
+}
+.img3{
+  width: 173px;
+  height: 30px;
+}
+.img4{
+  width: 70px;
+  height: 30px;
+}
+#princing col{
+  width: 380px;
+  height: 326px;
+
+}
